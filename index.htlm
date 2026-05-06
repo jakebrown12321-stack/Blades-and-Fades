@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blades and Fades | Newburgh, IN</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+
+    header {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #c59d5f;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #c59d5f;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70') no-repeat center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      background: rgba(0,0,0,0.7);
+      padding: 20px;
+      font-size: 2em;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .service {
+      flex: 1 1 250px;
+      background: #1c1c1c;
+      padding: 20px;
+      border-left: 4px solid #c59d5f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      border-top: 2px solid #c59d5f;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #c59d5f;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Blades and Fades</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Sharp Cuts. Clean Fades. Premium Style.</h2>
+</div>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    Welcome to Blades and Fades, your go-to barbershop in Newburgh, Indiana.
+    We specialize in precision cuts, modern fades, and classic grooming.
+    Whether you're looking for a fresh look or a clean-up, we've got you covered.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service">
+      <h3>Haircuts</h3>
+      <p>Modern and classic styles tailored to you.</p>
+    </div>
+    <div class="service">
+      <h3>Fade Cuts</h3>
+      <p>Skin fades, tapers, and custom blends.</p>
+    </div>
+    <div class="service">
+      <h3>Beard Grooming</h3>
+      <p>Sharp lines, trims, and full beard shaping.</p>
+    </div>
+    <div class="service">
+      <h3>Hot Towel Shaves</h3>
+      <p>Relaxing and smooth traditional shave experience.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Location:</strong> Newburgh, IN</p>
+  <p><strong>Phone:</strong> (Your Phone Number)</p>
+  <p><strong>Hours:</strong> Mon–Sat: 9am – 7pm</p>
+  <a href="#" class="btn">Book Appointment</a>
+</section>
+
+<footer>
+  <p>&copy; 2026 Blades and Fades. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
